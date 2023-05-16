@@ -1,5 +1,5 @@
 # STeRG
-Multithreading in Python
+# Multithreading in Python
 Website: https://www.geeksforgeeks.org/multithreading-python-set-1/
 Ability of a processor to execute multiple threads concurrently (at the same time).
 
@@ -42,8 +42,7 @@ An API, or application programming interface, is a set of defined rules that ena
 In Python, the threading module provides a very simple and intuitive API for spawning multiple threads in a program.
 
 
-# Python program to illustrate the concept
-# of threading
+# Python program to illustrate the concept of threading
 # importing the threading module
 import threading
 
