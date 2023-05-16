@@ -139,3 +139,14 @@ pool.submit(worker)
 pool.shutdown(wait=True)
 
 print("Main thread continuing to run")
+
+# Synchronisation
+
+Thread synchronization is defined as a mechanism which ensures that two or more concurrent threads do not simultaneously execute some particular program segment known as critical section.
+![image](https://github.com/siddhimurkute/STeRG/assets/117934595/56b3a26c-c3e4-4c44-8408-21323b3e2544)
+
+Concurrent accesses to shared resource can lead to race condition.
+A race condition occurs when two or more threads can access shared data and they try to change it at the same time. As a result, the values of variables may be unpredictable and vary depending on the timings of context switches of the processes.
+
+![image](https://github.com/siddhimurkute/STeRG/assets/117934595/8f3306e0-a7d1-4251-95b7-5d1924a8db1a)
+
