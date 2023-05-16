@@ -43,7 +43,7 @@ In Python, the threading module provides a very simple and intuitive API for spa
 
 
 # Python program to illustrate the concept of threading
-# importing the threading module
+# Importing the threading module
 import threading
 
 
@@ -80,8 +80,7 @@ if _name_ =="_main_":
 #In order to stop execution of current program until a thread is complete, we use join method.
 
 
-# Python program to illustrate the concept
-# of threading
+# Python program to illustrate the concept of threading
 import threading
 import os
 
@@ -114,7 +113,7 @@ if _name_ == "_main_":
 	t2.join()
 
 
-Using a thread pool:
+# Using a thread pool:
 A thread pool is a collection of threads that are created in advance and can be reused to execute multiple tasks. 
 
 concurrent.futures module- provides a ThreadPoolExecutor class that makes it easy to create and manage a thread pool. 
@@ -129,14 +128,14 @@ import concurrent.futures
 def worker():
 	print("Worker thread running")
 
-# create a thread pool with 2 threads
+# Create a thread pool with 2 threads
 pool = concurrent.futures.ThreadPoolExecutor(max_workers=2)
 
-# submit tasks to the pool
+# Submit tasks to the pool
 pool.submit(worker)
 pool.submit(worker)
 
-# wait for all tasks to complete
+# Wait for all tasks to complete
 pool.shutdown(wait=True)
 
 print("Main thread continuing to run")
