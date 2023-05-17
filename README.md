@@ -1,12 +1,13 @@
 # STeRG
 # Multithreading in Python
 Website: https://www.geeksforgeeks.org/multithreading-python-set-1/
+
 Ability of a processor to execute multiple threads concurrently (at the same time).
 
 Process- is an instance of a computer program that is being executed.
 3 basic components:
 
-1.An executable program.
+1.An executable program
 2.The associated data needed by the program (variables, work space, buffers, etc.)
 3.The execution context of the program (State of process)
 
