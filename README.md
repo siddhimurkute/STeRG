@@ -33,7 +33,9 @@ Multi-threading: Multiple threads can exist within one process where:
 
 Context Switching:
 1.In a simple, single-core CPU, Multithreading is achieved using frequent switching between threads. This is termed as context switching.
+
 2.The state of a thread is saved and state of another thread is loaded whenever any interrupt (due to I/O or manually set) takes place. 
+
 3.Context switching takes place so frequently that all the threads appear to be running parallelly (this is termed as multitasking).
 
 
