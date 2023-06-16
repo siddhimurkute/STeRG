@@ -1,3 +1,8 @@
+#To display a real time graph of random numbers imported from random module
+#PyQt5
+#random
+#matplotlib
+
 import sys
 import random
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
